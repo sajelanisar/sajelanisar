@@ -1,8 +1,48 @@
-# Hi 👋, I'm Nisar Ali
+<style>
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
 
-## A passionate Frontend & Backend Developer & Designer from Pakistan
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 
-📫 **How to reach me:** nisaralibrahim@gmail.com
+h1 {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #fff;
+  font-size: 2.5rem;
+  color: #fff;
+  animation: typing 3s steps(30) infinite, fadeIn 1s ease-in-out;
+}
+
+body {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+</style>
+
+<div class="container">
+  <h1>Hi 👋, I'm <span id="animated-name">Nisar Ali</span></h1>
+  <h3>A passionate Frontend & Backend Developer & Designer from Pakistan</h3>
+
+  📫 <strong>How to reach me:</strong> nisaralibrahim@gmail.com
+</div>
 
 ---
 
